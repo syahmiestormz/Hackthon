@@ -8,14 +8,14 @@ class ApplicationController < ActionController::Base
   end
   
   def teams
-    
+    @title ="teams"
   end
   
   def guests
-    
+    @title ="guests"
   end
   
   def gallery
-    
+    @title ="gallery"
   end
 end
