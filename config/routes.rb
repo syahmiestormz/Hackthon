@@ -3,7 +3,7 @@ Hackthon::Application.routes.draw do
   
   get 'menu' => 'application#menu'
   
-  get 'guests' => 'application#guests'
+  get 'home' => 'application#home'
     
   get 'gallery' => 'application#gallery'
       
