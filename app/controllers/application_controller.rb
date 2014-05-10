@@ -7,15 +7,15 @@ class ApplicationController < ActionController::Base
     @title ="Home"
   end
   
-  def teams
-    @title ="teams"
+  def menu
+    @title ="Menu"
   end
   
   def guests
     @title ="guests"
   end
   
-  def gallery
-    @title ="gallery"
+  def landing
+    @title ="Sign Up"
   end
 end

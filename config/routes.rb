@@ -1,11 +1,11 @@
 Hackthon::Application.routes.draw do
-  root 'application#home'
+  root 'application#landing'
   
-  get 'teams' => 'application#teams'
+  get 'menu' => 'application#menu'
   
-    get 'guests' => 'application#guests'
+  get 'guests' => 'application#guests'
     
-      get 'gallery' => 'application#gallery'
+  get 'gallery' => 'application#gallery'
       
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
