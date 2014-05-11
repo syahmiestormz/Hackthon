@@ -3,9 +3,7 @@ Hackthon::Application.routes.draw do
   
   get 'menu' => 'application#menu'
   
-  get 'home' => 'application#home'
-    
-  get 'gallery' => 'application#gallery'
+  get 'countdown' => 'application#countdown'
       
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -11,8 +11,8 @@ class ApplicationController < ActionController::Base
     @title ="Menu"
   end
   
-  def guests
-    @title ="guests"
+  def countdown
+    @title ="Countdown"
   end
   
  
