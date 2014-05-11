@@ -7,3 +7,5 @@ if(seconds==1){thisEl.find(".timeRefSeconds").text("second");}else{thisEl.find("
 if(settings['format']=="on"){days=(String(days).length>=2)?days:"0"+ days;hours=(String(hours).length>=2)?hours:"0"+ hours;minutes=(String(minutes).length>=2)?minutes:"0"+ minutes;seconds=(String(seconds).length>=2)?seconds:"0"+ seconds;}
 if(!isNaN(eventDate)){thisEl.find(".days").text(days);thisEl.find(".hours").text(hours);thisEl.find(".minutes").text(minutes);thisEl.find(".seconds").text(seconds);}else{alert("Invalid date. Here's an example: 12 Tuesday 2012 17:30:00");clearInterval(interval);}}
 countdown_proc();interval=setInterval(countdown_proc,1000);}})(jQuery);
+
+s
